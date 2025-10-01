@@ -1,0 +1,21 @@
+name: Bug report
+description: Create a report to help us improve
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and steps to reproduce.
+      placeholder: When I...
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device / Platform
+      placeholder: Samsung Tizen 2020, LG webOS 5.0, Apple TV 4K, Android TV...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots

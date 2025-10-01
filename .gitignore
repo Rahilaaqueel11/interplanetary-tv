@@ -1,0 +1,45 @@
+# Node / JS
+node_modules/
+.pnpm-store/
+dist/
+build/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+.yarn/
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Xcode / iOS / tvOS
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcsettings
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+build/
+
+# Android
+*.iml
+.gradle/
+local.properties
+.cxx/
+captures/
+app/build/
+
+# Tizen / webOS
+.profile
+*.wgt
+*.ipk
+
+# Env
+.env
+.env.*
